@@ -14,7 +14,7 @@ namespace Paynter.ApiAi.Models
         public string Action { get; set; }
         public bool ActionIncomplete { get; set; }
         public JObject Parameters { get; set; }
-        public IEnumerable<ApiAiQueryContext> Contexts { get; set; }
+        public IList<ApiAiQueryContext> Contexts { get; set; }
         public ApiAiQueryFulfillment Fulfillment { get; set; }
     }
     
